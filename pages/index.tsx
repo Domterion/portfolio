@@ -59,7 +59,7 @@ const Home: NextPage = () => {
                 <Flex direction="column">
                     <Header text="About" />
                     <Text>
-                        Hello 👋 I'm Dominic Harris, a self-taught software
+                        Hello 👋 I&#39;m Dominic Harris, a self-taught software
                         developer and self-driven system administrator. I
                         currently administare my own homelab and I love to write
                         free and open-source software!
