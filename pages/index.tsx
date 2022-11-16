@@ -92,11 +92,13 @@ const Home: NextPage = () => {
                         <Contact name="dominic@domm.me" icon={FaEnvelope} />
                         <Contact name="mellowmarshe#0001" icon={FaDiscord} />
                         <Contact name="domterion" icon={FaGithub} />
-                        {/*
-                        <a rel="me" href="https://wires.gg/@dominic">
+                        <a
+                            style={{ display: "none" }}
+                            rel="me"
+                            href="https://wires.gg/@dominic"
+                        >
                             Mastodon
                         </a>
-                        */}
                         <Contact name="wires.gg/@dominic" icon={FaMastodon} />
                     </Flex>
                 </Flex>
