@@ -12,7 +12,7 @@ import type { NextPage } from "next";
 import Layout from "../components/Layout";
 import Technology from "../components/Technology";
 import Header from "../components/Header";
-import { FaDiscord, FaEnvelope, FaGithub } from "react-icons/fa";
+import { FaDiscord, FaEnvelope, FaGithub, FaMastodon } from "react-icons/fa";
 import Contact from "../components/Contact";
 
 const technologies = [
@@ -92,6 +92,12 @@ const Home: NextPage = () => {
                         <Contact name="dominic@domm.me" icon={FaEnvelope} />
                         <Contact name="mellowmarshe#0001" icon={FaDiscord} />
                         <Contact name="domterion" icon={FaGithub} />
+                        {/*
+                        <a rel="me" href="https://wires.gg/@dominic">
+                            Mastodon
+                        </a>
+                        */}
+                        <Contact name="wires.gg/@dominic" icon={FaMastodon} />
                     </Flex>
                 </Flex>
                 {/* End contact section */}
